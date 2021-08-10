@@ -1,0 +1,35 @@
+#conteudoFC {
+    grid-row: 2/3;
+    grid-column: 1/5;
+    background: white;
+    color: black;
+    padding: 40px;
+    text-align: center;
+ }
+
+h1{
+    font: 30px sans-serif;
+}
+
+.btnFim {
+    width: 70px;
+    height: 30px;
+    border: 0;
+    border-radius: 15px;
+    color: white;
+    font: 15px sans-serif;
+    background-color: #141414;
+    outline:none;
+}
+
+.btnFim:hover{
+    background-color: #E50914;
+}
+
+form {
+    font-weight: bold;
+}
+
+span{
+    font-weight: normal;
+}

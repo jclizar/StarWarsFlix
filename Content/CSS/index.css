@@ -1,0 +1,199 @@
+﻿*{
+    font: 16px sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #141414;
+}
+
+.container { /*conteudo site*/
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+}
+
+/**************** Header ****************/
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    background: #141414;
+    display: grid;
+    grid-template-columns: 15% 80%;
+    grid-row: 1/1;
+    padding: 11px 11px 11px 33px;
+}
+
+.index{ /*StarWarsFlix letra*/
+    text-decoration: none;
+    font: 30px sans-serif;
+    font-weight: bold;
+    color: #E50914;
+    padding: 11px 0 11px 0 ; /*top right bottom left*/
+}
+
+.index:hover{
+    color: red;
+}
+
+
+/**************** NAV ****************/
+nav {
+    background: #141414;
+    display: grid;
+    grid-column: 2/6;
+    grid-row: 1/1;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+li {
+    margin: 0px;
+    padding: 20px;
+    list-style: none; /*tira as bolinhas da lista*/
+    font: 16px sans-serif;
+    color: white;
+    float: left; /*deixa a lista na horizontal igual para as imagens*/
+}
+
+li:hover{
+    color: #e5e5e5;
+    text-decoration: underline;
+}
+
+.user { 
+    display: grid;
+    grid-column: 4/5;
+    grid-row: 1/1;
+    
+}
+
+#userimg{
+    width: 35px;
+    height: 35px;
+}
+
+img:hover {
+    filter: brightness(1.2);
+}
+
+
+.flexboxUser{
+    background: #141414;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 60px 0 0px;
+}
+
+/**************** Section ****************/
+#conteudo {
+    grid-row: 2/3;
+    grid-column: 1/5;
+    background: #141414;
+    color: white;
+    padding: 0 30px 30px 30px;
+}
+
+img {
+    width: 155px;
+    height: 253px;
+    padding: 3px;
+}
+
+
+h2{
+    font-weight: bold;
+    font: 20px sans-serif;
+    padding: 3px;
+}
+
+.lista { /*flexbox onde ficarão os posters*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.posters {
+    position: relative; /*posição relativa pq será sobreposto pelo logo*/
+}
+
+.sobrepor_posters {
+    position: absolute; /*posição absoluta para aplicar z-index*/
+    opacity: 0; /* opacidade zero deixa o logo transparente*/
+    z-index: 1;
+    width: 155px;
+    height: 253px;
+    padding: 3px;
+    background-color: rgba(100, 100, 100, 0.5);
+}
+
+.sobrepor_posters:hover {
+    opacity: 100;/* opacidade 100 deixa o logo visivel*/
+    cursor: pointer;
+}
+
+.logoinfo {
+    width: 40px;
+    height: 40px;
+    padding: 100px 0 0 0;
+}
+/**************** FOOTER ****************/
+footer {
+    background: #141414;
+    font: 15px sans-serif;
+    padding: 20px;
+    text-align: center;
+
+    display: grid;
+    grid-column: 1/5;
+    grid-row: 3/4;
+}
+
+#flnco { /*cor letra fale conosco*/
+    color: grey;
+}
+
+#flnco:hover{ 
+    color: white;
+}
+
+#imgfb{ /*faceboobk logo*/
+    width: 25px;
+    height: 25px;
+    margin: 5px;
+}
+
+#imgit { /*instagram logo*/
+    width: 25px;
+    height: 25px;
+    margin: 5px;
+}
+
+#imgtw { /*twitter logo*/
+    width: 30px;
+    height: 25px;
+    margin: 5px;
+}
+
+#imgyt { /*youtube logo*/
+    width: 36px;
+    height: 25px;
+    margin: 5px;
+}
+
+span {
+    color: grey;
+    font: 10px sans-serif;
+}
