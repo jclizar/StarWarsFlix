@@ -4,7 +4,6 @@
 * A primeira página tem que conter textos e imagens, podendo ainda, utilizar vídeos e áudios.
 * A segunda página, será um cadastro do tipo Fale Conosco com no mínimo 10 campos.
 
-<br>
 <h1> Tema escolhido <h3>
 
 * Star Wars
