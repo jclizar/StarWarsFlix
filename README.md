@@ -8,7 +8,7 @@
 
 * Star Wars
 * Plataforma Streaming
-
+    
 <div align="right">
     <a href="https://jclizar.github.io/StarWarsFlix/index.html">
         <img src="https://img.shields.io/badge/Site-StarWarsFlix-red">
@@ -45,4 +45,4 @@
           \__/        
 </pre>
 
-
+> StarWarsFlix: Compatibilidade com navegador Google Chrome
