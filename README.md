@@ -9,7 +9,14 @@
 * Star Wars
 * Plataforma Streaming
 
-
+<div align="right">
+    <a href="https://jclizar.github.io/StarWarsFlix/index.html">
+        <img src="https://img.shields.io/badge/Site-StarWarsFlix-red">
+    </a>
+    <a href="https://asciiart.website/index.php?art=movies/star%20wars">
+        <img src="https://img.shields.io/badge/ASCII-Art-blue">
+    </a>
+</div>
 <pre>
            ________________
          |'-.--._ _________:
@@ -38,11 +45,4 @@
           \__/        
 </pre>
 
-<div align="right">
-    <a href="https://jclizar.github.io/StarWarsFlix/index.html">
-        <img src="https://img.shields.io/badge/Site-StarWarsFlix-red">
-    </a>
-    <a href="https://asciiart.website/index.php?art=movies/star%20wars">
-        <img src="https://img.shields.io/badge/ASCII-Art-blue">
-    </a>
-</div>
+
