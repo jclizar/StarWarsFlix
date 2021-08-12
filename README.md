@@ -1,4 +1,10 @@
-<h1> Regras do Projeto</h1>
+<h1> 
+    Regras do Projeto
+    <a href="https://jclizar.github.io/StarWarsFlix/index.html">
+        <img align="right" src="https://img.shields.io/badge/Site-StarWarsFlix-red">
+    </a>
+</h1> 
+
 
 * O design das páginas deverá ser estruturado com Flexbox, Grid CSS, juntamente com tags semânticas, por exemplo, head, nav, section, footer. A formatação deve ser feita com CSS.
 * A primeira página tem que conter textos e imagens, podendo ainda, utilizar vídeos e áudios.
@@ -9,14 +15,6 @@
 * Star Wars
 * Plataforma Streaming
     
-<div align="right">
-    <a href="https://jclizar.github.io/StarWarsFlix/index.html">
-        <img src="https://img.shields.io/badge/Site-StarWarsFlix-red">
-    </a>
-    <a href="https://asciiart.website/index.php?art=movies/star%20wars">
-        <img src="https://img.shields.io/badge/ASCII-Art-blue">
-    </a>
-</div>
 <pre>
            ________________
          |'-.--._ _________:
@@ -44,5 +42,11 @@
     snd <]   \>            \_____.>
           \__/        
 </pre>
+<div >
+    StarWarsFlix: Compatibilidade com navegador Google Chrome
+    <a href="https://asciiart.website/index.php?art=movies/star%20wars">
+        <img align="right" src="https://img.shields.io/badge/ASCII-Art-blue">
+    </a>
+</div>
 
-> StarWarsFlix: Compatibilidade com navegador Google Chrome
+
